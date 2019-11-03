@@ -33,8 +33,11 @@ phenotypeFactor = struct('var', [], 'card', [], 'val', []);
 % The number of genotypes is the length of alphaList.
 % The number of phenotypes is 2.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
-
+% alphaList, genotypeVar, phenotypeVar
+n_genotypes =  length(alphaList);
+n_phenotypes = 2;
 % Fill in phenotypeFactor.var.  This should be a 1-D row vector.
+alphaList(i)
 % Fill in phenotypeFactor.card.  This should be a 1-D row vector.
 
 phenotypeFactor.val = zeros(1, prod(phenotypeFactor.card));
