@@ -21,6 +21,7 @@ phenotypeFactorAlpha = struct('var', [3,1], 'card', [2,3], 'val', [0.8,0.2,0.6,0
 % phenotypeFactorAlpha = phenotypeGivenGenotypeFactor(alphaList, genotypeVar, phenotypeVar);
 
 % Testing genotypeGivenAlleleFreqsFactor:
+% Done!
 alleleFreqs = [0.1; 0.9];
 genotypeVar = 1;
 genotypeFactor = struct('var', [1], 'card', [3], 'val', [0.01,0.18,0.81]); % Comment out this line for testing
